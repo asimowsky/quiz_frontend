@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "prev": false,
+    "next": true,
+    "content": {
+      "type": "grid",
+      "question": "In welchem Bundesland leben Sie?",
+      "elements": [
+        {
+          "text": "Nordrhein-Westfalen",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Nrw.svg"
+        },
+        {
+          "text": "Bayern",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Bayern.svg"
+        },
+        {
+          "text": "Baden-Württemberg",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Baden-Wuerttemberg.svg"
+        },
+        {
+          "text": "Hessen",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Hessen.svg"
+        },
+        {
+          "text": "Niedersachsen",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Niedersachsen.svg"
+        },
+        {
+          "text": "Rheinland-Pfalz",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Rheinland-Pfalz.svg"
+        },
+        {
+          "text": "Sachsen",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Sachsen.svg"
+        },
+        {
+          "text": "Brandenburg",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Brandenburg.svg"
+        },
+        {
+          "text": "Schleswig-Holstein",
+          "image": "https://enpal.azureedge.net/slider-images/Marketing-Materials/Slider_Schleswig-Holstein.png"
+        },
+        {
+          "text": "Ich lebe in einem anderen Bundesland"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "prev": true,
+    "next": true,
+
+    "content": {
+      "type": "grid",
+      "question": "Welche Dachform hat Ihr Haus?",
+      "elements": [
+        {
+          "text": "Satteldach",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Satteldach.svg"
+        },
+        {
+          "text": "Flachdach",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Flachdach.svg"
+        },
+        {
+          "text": "Pultdach",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Pultdach.svg"
+        },
+        {
+          "text": "Anderes",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Anderes.svg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "prev": true,
+    "next": true,
+    "content": {
+      "type": "grid",
+      "question": "Besitzt Ihr Haus Gauben oder Dachfenster?",
+      "elements": [
+        {
+          "text": "Ja",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Gauben_B.svg"
+        },
+        {
+          "text": "Nein",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_keine_Gauben_B.svg"
+        },
+        {
+          "text": "Weiß nicht",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Anderes.svg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "prev": true,
+    "next": true,
+    "content": {
+      "type": "grid",
+      "question": "Wie viele Personen leben in Ihrem Haushalt?",
+      "elements": [
+        {
+          "text": "1-2",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_2p.svg"
+        },
+        {
+          "text": "3-4",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_4p.svg"
+        },
+        {
+          "text": "5 und mehr",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_-5p.svg"
+        },
+        {
+          "text": "Weiß nicht",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Anderes.svg"
+        }
+      ]
+    }
+  },
+
+  {
+    "id": 4,
+    "prev": true,
+    "next": true,
+    "content": {
+      "type": "grid",
+      "question": "Wann verbrauchen Sie Ihren Strom?",
+      "elements": [
+        {
+          "text": "Morgens & abends",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_morgens_abends.svg"
+        },
+        {
+          "text": "Verteilt über den Tag",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_tagsueber.svg"
+        },
+        {
+          "text": "Anderes",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Anderes.svg"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "prev": true,
+    "next": true,
+    "content": {
+      "type": "grid",
+      "question": "Sind Sie Eigentümer des Hauses?",
+      "elements": [
+        {
+          "text": "Ja",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_Eigentuemer.svg"
+        },
+        {
+          "text": "Nein",
+          "image": "https://enpal.azureedge.net/slider-images/slider_icons_v2/Slider_Icons_kein_Eigentuemer.svg"
+        }
+      ]
+    }
+  },
+
+  {
+    "id": 7,
+    "prev": true,
+    "next": false,
+    "content": "form"
+  }
+]

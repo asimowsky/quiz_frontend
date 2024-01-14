@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/371917/pexels-photo-371917.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+.layout {
+  max-width: 100%;
+  /* padding: 30px; */
+}
+.stats_layout {
+  max-width: 100%;
+  padding: 30px;
+}
+.myPage {
+  background: rgba(255, 255, 255, 0.387);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100dvh; */
+}
+
+.flex_btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_btn {
+  background-color: rgb(25, 170, 25);
+  color: white;
+  border: none;
+  transition: 0.5s ease-in-out all;
+}
+.flex_btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.slider_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.ant-carousel-slide {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.ant-carousel .slick-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.myCard {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  z-index: 1;
+  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 10px 10px;
+  height: 150px;
+}
+
+.myCard:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.myCard::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 60%;
+  background-color: rgb(25, 170, 25);
+  transform: scaleY(0);
+  transform-origin: center bottom;
+  z-index: 0;
+  transition: transform 0.5s;
+}
+
+.myCard:hover::before {
+  transform: scaleY(1.2);
+  z-index: 2;
+}
+
+.card_content {
+  z-index: 1;
+  position: relative;
+  transition: z-index 0.5s;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+.myCard:hover .card_content {
+  color: white;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .myCard {
+    max-width: 100%;
+    max-height: none;
+  }
+  .slider_container {
+    gap: 10px;
+    padding: 10px;
+  }
+  .myPage {
+    height: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .myCard {
+    max-width: 100%;
+    max-height: none;
+  }
+  .slider_container {
+    gap: 10px;
+    padding: 10px;
+  }
+  .myPage {
+    height: 100%;
+  }
+}
+
+.stat_box {
+  background: white;
+  min-height: 450px;
+}
+
+.lottie_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 400px;
+  width: 100%;
+}
+
+.question-container {
+  background-color: rgb(25, 170, 25);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  height: 100px;
+  max-height: 250px;
+}
+
+.question-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.question-text {
+  color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .myCard {
+    max-width: 100%;
+    max-height: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .myCard img {
+    max-width: 100%; /* Adjust the image size as needed */
+    margin-right: 10px; /* Add some spacing between image and text */
+  }
+
+  .card_content {
+    width: 100%; /* Adjust the text width as needed */
+  }
+}
+
+/* Default style for the grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Media query for screens with a maximum width of 600px (mobile) */
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px; /* Reduce the gap for mobile */
+    padding: 10px; /* Reduce the padding for mobile */
+  }
+}
+
+/* Media query for screens with a minimum width of 601px (PC) */
+@media (min-width: 601px) {
+  .grid-container {
+    grid-template-columns: repeat(5, 1fr); /* 4 columns on PC */
+    gap: 20px; /* Restore the gap for PC */
+    padding: 20px; /* Restore the padding for PC */
+  }
+}
